@@ -13,11 +13,11 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 #        User Edit Variables                            #
 #########################################################
-ADDONTITLE = '[COLOR crimson][B]Ragnarok[/B][/COLOR]Wizard'
+ADDONTITLE = '[COLOR crimson][B]ToonWiz[/B][/COLOR]Wizard'
 BUILDERNAME = 'Ragnarok'
-EXCLUDES = [ADDON_ID, 'repository.ragnarokwizard']
+EXCLUDES = [ADDON_ID, 'repository.toonwiz']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
-BUILDFILE = 'https://raw.githubusercontent.com/ragnarlothbrok-odin/Wizard/master/builds.txt'
+BUILDFILE = 'https://www.dropbox.com/scl/fi/3ren2hvr4w7aszzb90epo/builds.txt?rlkey=c14zbkwh6ixwo3nl89l5v7i9c&st=h732kak7&dl=1'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
@@ -63,7 +63,7 @@ SPACER = '='
 COLOR1 = 'crimson'
 COLOR2 = 'white'
 # Primary menu items   / {0} is the menu item and is required
-THEME1 = u'[COLOR {color1}][I]([COLOR {color1}][B]Ragnarok[/B][/COLOR][COLOR {color2}]Wizard[COLOR {color1}])[/I][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2)
+THEME1 = u'[COLOR {color1}][I]([COLOR {color1}][B]ToonWiz[/B][/COLOR][COLOR {color2}]Wizard[COLOR {color1}])[/I][/COLOR] [COLOR {color2}]{{}}[/COLOR]'.format(color1=COLOR1, color2=COLOR2)
 # Build Names          / {0} is the menu item and is required
 THEME2 = u'[COLOR {color1}]{{}}[/COLOR]'.format(color1=COLOR1)
 # Alternate items      / {0} is the menu item and is required
@@ -75,9 +75,9 @@ THEME5 = u'[COLOR {color1}]Current Theme:[/COLOR] [COLOR {color2}]{{}}[/COLOR]'.
 
 # Message for Contact Page
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
-HIDECONTACT = 'No'
+HIDECONTACT = 'Yes'
 # You can add \n to do line breaks
-CONTACT = 'Thank you for choosing Ragnarok.\n\nContact us me on Discord: Ragnar Lothbrok#1948'
+#CONTACT = 'Thank you for choosing Ragnarok.\n\nContact us me on Discord: Ragnar Lothbrok#1948'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = os.path.join(ART, 'qricon.png')
 CONTACTFANART = 'http://'
@@ -96,7 +96,7 @@ AUTOUPDATE = 'Yes'
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL = 'No'
 # Addon ID for the repository
-REPOID = 'repository.ragnarokwizard'
+REPOID = 'repository.toonwiz'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
 REPOADDONXML = 'https://'
 # Url to folder zip is located in
@@ -114,7 +114,7 @@ NOTIFICATION = 'http://'
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR crimson][B]Ragnarok[/B][/COLOR]Wizard'
+HEADERMESSAGE = '[COLOR crimson][B]ToonWiz[/B][/COLOR]Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window
