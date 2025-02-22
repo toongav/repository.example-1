@@ -4,7 +4,7 @@ zip="url.to.wizard"
 
 name="Gavs Build"
 version="1.0"
-url="https://www.dropbox.com/scl/fi/waximj2whij93ry8xz6hg/Batman_202502171642.zip?rlkey=l6f4zhu3ti9sdsjyiuq58mr22&st=fw0t2wv7&dl=1"
+url="https://www.dropbox.com/scl/fi/qkxv9eexxh7dq0w3w01x4/AH2-GAV.zip?rlkey=69upfpcoet54upf4c63q3x4ot&dl=1"
 minor="http://"
 gui="http://"
 kodi="21.2"
